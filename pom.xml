@@ -1,0 +1,115 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dev.cmedina.predius</groupId>
+	<artifactId>jrimum-texgit</artifactId>
+	<name>jrimum-texgit</name>
+	<packaging>jar</packaging>
+	<version>0.2.3</version>
+	<description>Projeto open source de componentes de software para o domínio de negócios do Brasil.</description>
+	<url>http://www.jrimum.org/texgit</url>
+
+	<parent>	
+		<groupId>dev.cmedina</groupId>
+		<artifactId>predius</artifactId>
+		<version>1.0</version>
+	</parent>
+
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>Projeto JRimum</name>
+		<url>http://www.jrimum.org</url>
+	</organization>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>http://github.com/jrimum/texgit/issues</url>
+	</issueManagement>
+
+	<scm>
+		<url>http://github.com/jrimum/texgit</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Gilmar P. S. L.</name>
+			<email>gilmatryx@gmail.com</email>
+		</developer>
+		<developer>
+			<name>Misael Barreto</name>
+			<email>misaelbarreto@gmail.com</email>
+		</developer>
+		<developer>
+			<name>Rômulo Augusto</name>
+			<email>romulomail@gmail.com</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<dependencies>
+		
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.4</version>
+			<scope></scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>sun-jaxb</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>sun-jaxb</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<!-- Test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+		    <id>Maven Central</id>
+		    <url>https://repo1.maven.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>JBoss Repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+		</repository>
+		<repository>
+			<id>jrimum.org</id>
+			<url>http://jrimum.org/maven/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>JBoss 3rd-party Repository</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>		
+	</repositories>
+
+</project>
