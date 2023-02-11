@@ -10,13 +10,6 @@
 	<description>Projeto open source de componentes de software para o domínio de negócios do Brasil.</description>
 	<url>http://www.jrimum.org/texgit</url>
 
-	<parent>	
-		<groupId>dev.cmedina</groupId>
-		<artifactId>predius</artifactId>
-		<version>1.0</version>
-	</parent>
-
-
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
